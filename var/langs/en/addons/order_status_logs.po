@@ -1,0 +1,30 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::order_status_logs"
+msgid "Order status history"
+msgstr "Order status history"
+
+msgctxt "Addons::description::order_status_logs"
+msgid "Allows to track the history of order status changes."
+msgstr "Allows to track the history of order status changes."
+
+msgctxt "Languages::order_status_logs"
+msgid "Order status history"
+msgstr "Order status history"
+
+msgctxt "Languages::order_status_logs_menu_description"
+msgid "Manage order status history"
+msgstr "Manage order status history"
+
+msgctxt "Languages::order_status_logs.status_from"
+msgid "Status from"
+msgstr "Status from"
+
+msgctxt "Languages::order_status_logs.status_to"
+msgid "Status to"
+msgstr "Status to"
+
