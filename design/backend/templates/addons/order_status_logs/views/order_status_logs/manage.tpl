@@ -68,12 +68,8 @@
 
 {/capture}
 
-{capture name="sidebar"}
-    {include file="addons/banners/views/banners/components/banners_search_form.tpl" dispatch="banners.manage"}
-{/capture}
 
 {include file="common/mainbox.tpl"
          title=__("order_status_logs")
          content=$smarty.capture.mainbox
-         sidebar=$smarty.capture.sidebar
 }
