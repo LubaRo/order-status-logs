@@ -65,3 +65,8 @@ function fn_get_orders_statuses_logs($params = array(), $items_per_page = 0)
 
     return array($logs, $params);
 }
+
+function fn_cleanup_order_status_logs()
+{
+    db_query("TRUNCATE TABLE ?:order_status_logs");
+}

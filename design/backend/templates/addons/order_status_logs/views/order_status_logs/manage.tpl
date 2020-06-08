@@ -72,8 +72,16 @@
     {include file="addons/order_status_logs/components/logs_search_form.tpl" dispatch="order_status_logs.manage"}
 {/capture}
 
+{capture name="buttons"}
+    {capture name="tools_list"}
+        <li>{btn type="list" text=__("clean_logs") href="order_status_logs.clean" class="cm-confirm" method="POST"}</li>
+    {/capture}
+    {dropdown content=$smarty.capture.tools_list}
+{/capture}
+
 {include file="common/mainbox.tpl"
          title=__("order_status_logs")
          content=$smarty.capture.mainbox
          sidebar=$smarty.capture.sidebar
+         buttons=$smarty.capture.buttons
 }
