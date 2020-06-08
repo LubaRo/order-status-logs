@@ -28,3 +28,7 @@ msgctxt "Languages::order_status_logs.status_to"
 msgid "Status to"
 msgstr "Status to"
 
+msgctxt "Languages::privilege_groups.order_status_logs"
+msgid "Order status history"
+msgstr "Order status history"
+
