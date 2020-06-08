@@ -36,7 +36,7 @@ function fn_get_orders_statuses_logs($params = array(), $items_per_page = 0)
         'status_from' => "?:order_status_logs.status_from",
         'status_to' => "?:order_status_logs.status_to",
         'user' => ['?:users.lastname', '?:users.firstname'],
-        'date' => ["?:order_status_logs.timestamp", "?:order_status_logs.order_id"]
+        'date' => ["?:order_status_logs.timestamp", "?:order_status_logs.id"]
     ];
 
     $join = "LEFT JOIN ?:users USING(user_id)";
